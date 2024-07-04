@@ -10,6 +10,11 @@ Libft is a C library consisting of various custom implementations of standard C 
     - [Compiling](#compiling)
 3. [List of Functions](#list-of-functions)
     - [Characters](#Characters)
+    - [Integer Conversions](#Integer-Conversions)
+    - [Linked-Lists](#Linked-Lists)
+    - [Memory](#Memory)
+    - [Printing](#Printing)
+    - [Strings](#Strings)
 
 ## Introduction
 
@@ -54,12 +59,12 @@ make
 * `ft_tolower`: Converts a character to lower-case.
 * `ft_toupper`: Converts a character to upper-case.
 
-### Integer Conversions
+### Integer-Conversions
 
 * `ft_atoi`: Converts an array of characters to an integer.
 * `ft_itoa`: Converts an integer to an array of characters.
 
-### Linked Lists
+### Linked-Lists
 
 * `ft_lstadd_back`: Adds a new node at the end of a list.
 * `ft_lstadd_front`: Adds a new node at the beginning of a list.
@@ -98,3 +103,36 @@ make
 * `ft_putunsigned`: Writes the unsigned integer n to standard output (stdout).
 * `ft_putaddress`: Writes the memory address ptr to standard output (stdout).
 * `ft_putbase`: Converts and writes the unsigned long long integer n to standard output (stdout) using the specified base for the numerical system.
+
+### Strings
+
+* `ft_split`: Splits a string into an array of substrings based on a delimiter character.
+* `ft_strcat`: Concatenates the string src to the end of the string dest, modifying dest.
+* `ft_strncat`: Concatenates at most n characters from the string src to the end of the string dest,
+                 stopping early if a null character ('\0') is encountered in src before n characters are appended.
+* `ft_strlcat`: Appends the string src to the end of dest, ensuring that the total length of
+                 dest does not exceed size - 1 characters (including the null-terminator).
+                 Returns the total length of the concatenated string it tried to create.
+* `ft_strcpy`: Copies the string src (including the null-terminator) to the memory location dest,
+                overwriting any existing content in dest.
+* `ft_strncpy`: Copies at most n characters from the string src to dest. If src is shorter than n characters, null characters are appended until n characters have been written.
+* `ft_strlcpy`: Copies up to size - 1 characters from the string src to dst, ensuring dst is null-terminated. Returns the length of src.
+* `ft_strchr`: Locates the first occurrence of a character in a string.
+* `ft_strrchr`: Locates the last occurrence of a character in a string.
+* `ft_strclr`: Sets every character of the string s to '\0' (null character).
+* `ft_strcmp`: Compares strings s1 and s2.
+* `ft_strncmp`: Compares the first n bytes of two strings.
+* `ft_strdel`: Frees the memory allocated for the string *s, then sets the pointer *s to NULL.
+* `ft_strdup`: Duplicates a string with malloc.
+* `ft_strequ`: Lexicographically compares strings s1 and s2. Returns 1 if they are identical, 0 otherwise.
+* `ft_strnequ`: Compares at most n characters of strings s1 and s2. Returns 1 if they are identical up to n characters, 0 otherwise.
+* `ft_striter`: Applies the function void (*f)(char *) to each character of the string s.
+* `ft_striteri`: Applies the function void (*f)(unsigned int, char *) to each character of the string s, with its index passed as the first argument to f.
+* `ft_strjoin`: Concatenates two strings into a new string.
+* `ft_strlen`: Computes the length of a string.
+* `ft_strmap`: Applies a function to each character of the string s, creating a new string with the results.
+* `ft_strnew`: Allocates memory for a new string (character array) of a specified size and initializes it with null characters ('\0'). Returns a pointer to the allocated memory, or NULL if allocation fails.
+* `strstr`: Finds the first occurrence of a substring within a string and returns a pointer to it. Returns NULL if the substring is not found.
+* `strnstr`: Like strstr, but limits the search to the first n characters of the string. Returns a pointer to the substring if found within the limit, otherwise returns NULL.
+* `ft_substr`: Allocates and returns a substring from a string.
+* `ft_strtrim`: Allocates and returns a copy of a string with specified characters trimmed from the beginning and end.
