@@ -9,6 +9,7 @@ Libft is a C library consisting of various custom implementations of standard C 
     - [Installation](#installation)
     - [Compiling](#compiling)
 3. [List of Functions](#list-of-functions)
+    - [Characters](#Characters)
 
 ## Introduction
 
@@ -40,41 +41,15 @@ make
 
 ## List of Functions
 
-* `ft_isalpha`: Checks if a character is alphabetic.
-* `ft_isdigit`: Checks if a character is a digit.
+### Characters
+
 * `ft_isalnum`: Checks if a character is alphanumeric.
+* `ft_isalpha`: Checks if a character is alphabetic.
 * `ft_isascii`: Checks if a character is an ASCII character.
-* `ft_isprint`: Checks if a character is printable (including space).
-* `ft_strlen`: Computes the length of a string.
-* `ft_memset`: Fills memory with a constant byte.
-* `ft_bzero`: Sets the first n bytes of memory to zero.
-* `ft_memcpy`: Copies n bytes from memory area src to memory area dest.
-* `ft_memmove`: Copies n bytes from memory area src to memory area dest (handles overlapping memory).
-* `ft_strlcpy`: Copies up to size - 1 characters from the string src to dst.
-* `ft_strlcat`: Appends the string src to dst, copying at most size - strlen(dst) - 1 bytes.
-* `ft_toupper`: Converts a lowercase letter to uppercase.
-* `ft_tolower`: Converts an uppercase letter to lowercase.
-* `ft_strchr`: Locates the first occurrence of a character in a string.
-* `ft_strrchr`: Locates the last occurrence of a character in a string.
-* `ft_strncmp`: Compares the first n bytes of two strings.
-* `ft_memchr`: Locates the first occurrence of a byte in a byte string.
-* `ft_memcmp`: Compares n bytes of two memory blocks.
-* `ft_strnstr`: Locates a substring in a string, searching at most len characters.
-* `ft_calloc`: Allocates memory for an array and initializes it to zero.
-* `ft_strdup`: Duplicates a string with malloc.
-* `ft_substr`: Allocates and returns a substring from a string.
-* `ft_strjoin`: Concatenates two strings into a new string.
-* `ft_strtrim`: Allocates and returns a copy of a string with specified characters trimmed from the beginning and end.
-* `ft_split`: Splits a string into an array of substrings based on a delimiter character.
-* `ft_itoa`: Converts an integer to a string.
-* `ft_strmapi`: Applies a function to each character of a string to create a new string.
-* `ft_striteri`: Applies a function to each character of a string with its index as argument.
-* `ft_lstnew`: Allocates and returns a new list node.
-* `ft_lstadd_front`: Adds a new node at the beginning of a list.
-* `ft_lstsize`: Counts the number of elements in a list.
-* `ft_lstlast`: Returns the last element of a list.
-* `ft_lstadd_back`: Adds a new node at the end of a list.
-* `ft_lstdelone`: Deletes a node and frees its content.
-* `ft_lstclear`: Deletes and frees all nodes in a list.
-* `ft_lstiter`: Iterates over a list and applies a function to each element.
-* `ft_lstmap`: Applies a function to each element of a list, creating a new list with the results.
+* `ft_isdigit`: Checks if a character is a digit.
+* `ft_islower`: Checks if a character is a lower-case alphabet.
+* `ft_isprint`: Checks if a character is printable.
+* `ft_isspace`: Checks if a character is a space / tabs.
+* `ft_isupper`: Checks if a character is an upper-case alphabet.
+* `ft_tolower`: Converts a character to lower-case.
+* `ft_toupper`: Converts a character to upper-case.
