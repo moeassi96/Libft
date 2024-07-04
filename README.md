@@ -1,4 +1,4 @@
-# Libft - Your Very First Own Library
+# Libft
 
 Libft is a C library consisting of various custom implementations of standard C library functions and additional utility functions.
 
