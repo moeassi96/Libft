@@ -56,4 +56,30 @@ t_list		*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 void		ft_lstfree(t_list **lst);
 t_list		*ft_lstlast(t_list *lst);
 
+// Memory management
+
+void		ft_bzero(void *dest, size_t n);
+void		*calloc(size_t num, size_t size);
+void		*ft_memalloc(size_t size);
+void		*ft_memccpy(void *dest, const void *src, int c, size_t n);
+void		*ft_memchr(const void *str, int c, size_t n);
+int			ft_memcmp(const void *str1, const void *str2, size_t n);
+void		*ft_memcpy(void *dest, const void *src, size_t n);
+void		ft_memdel(void **ap);
+void		*ft_memmove(void *dest, const void *src, size_t n);
+void		*ft_memset(void *dest, int x, size_t n);
+
+// Printing functions
+
+void		ft_putchar_fd(char c, int fd);
+int			ft_putchar(char c);
+void		ft_putstr_fd(char const *s, int fd);
+int			ft_putstr(char const *s);
+void		ft_putendl_fd(char const *s, int fd);
+void		ft_putendl(char const *s);
+void		ft_putnbr_fd(long n, int fd);
+int			ft_putnbr(long n);
+int			ft_putunsigned(unsigned int n);
+int			ft_putaddress(void *ptr);
+int			ft_putbase(char *base, unsigned long long n);
 #endif

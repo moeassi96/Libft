@@ -84,3 +84,17 @@ make
 * `ft_memdel`: Frees memory and sets the pointer to NULL.
 * `ft_memmove`: Copies n bytes from memory area src to memory area dest (handles overlapping memory).
 * `ft_memset`: Fills memory with a constant byte.
+
+### Printing
+
+* `ft_putchar_fd`: Writes a character c to the file descriptor fd.
+* `ft_putchar`: Writes a character c to standard output (stdout).
+* `ft_putstr_fd`: Writes the string s to the file descriptor fd.
+* `ft_putstr`: Writes the string s to standard output (stdout).
+* `ft_putendl_fd`: Writes the string s followed by a newline to the file descriptor fd.
+* `ft_putendl`: Writes the string s followed by a newline to standard output (stdout).
+* `ft_putnbr_fd`: Writes the integer n to the file descriptor fd.
+* `ft_putnbr`: Writes the integer n to standard output (stdout).
+* `ft_putunsigned`: Writes the unsigned integer n to standard output (stdout).
+* `ft_putaddress`: Writes the memory address ptr to standard output (stdout).
+* `ft_putbase`: Converts and writes the unsigned long long integer n to standard output (stdout) using the specified base for the numerical system.
