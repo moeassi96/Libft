@@ -53,3 +53,34 @@ make
 * `ft_isupper`: Checks if a character is an upper-case alphabet.
 * `ft_tolower`: Converts a character to lower-case.
 * `ft_toupper`: Converts a character to upper-case.
+
+### Integer Conversions
+
+* `ft_atoi`: Converts an array of characters to an integer.
+* `ft_itoa`: Converts an integer to an array of characters.
+
+### Linked Lists
+
+* `ft_lstadd_back`: Adds a new node at the end of a list.
+* `ft_lstadd_front`: Adds a new node at the beginning of a list.
+* `ft_lstclear`: Deletes and frees all nodes in a list.
+* `ft_lstdelone`: Deletes a node and frees its content.
+* `ft_lstfree`: Frees all nodes in a list.
+* `ft_lstiter`: Iterates over a list and applies a function to each element.
+* `ft_lstlast`: Returns the last element of a list.
+* `ft_lstmap`: Applies a function to each element of a list, creating a new list with the results.
+* `ft_lstnew`: Allocates and returns a new list node.
+* `ft_lstsize`: Counts the number of elements in a list.
+
+### Memory
+
+* `ft_bzero`: Sets the first n bytes of memory to zero.
+* `ft_calloc`: Allocates memory for an array and initializes it to zero.
+* `ft_memalloc`: Allocates memory and initializes it to zero.
+* `ft_memccpy`: Copies bytes until a specific byte is found.
+* `ft_memchr`: Locates the first occurrence of a byte in a byte string.
+* `ft_memcmp`: Compares n bytes of two memory blocks.
+* `ft_memcpy`: Copies n bytes from memory area src to memory area dest.
+* `ft_memdel`: Frees memory and sets the pointer to NULL.
+* `ft_memmove`: Copies n bytes from memory area src to memory area dest (handles overlapping memory).
+* `ft_memset`: Fills memory with a constant byte.
